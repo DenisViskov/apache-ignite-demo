@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '2.7.5'
+    id 'org.springframework.boot' version '2.4.2'
     id 'io.spring.dependency-management' version '1.1.4'
 }
 
@@ -24,7 +24,7 @@ dependencies {
     implementation 'org.apache.ignite:ignite-core:2.16.0'
     implementation 'org.apache.ignite:ignite-indexing:2.16.0'
     implementation 'org.apache.ignite:ignite-spring:2.16.0'
-    implementation 'org.springframework.data:spring-data-commons:2.7.5'
+    implementation 'org.springframework.data:spring-data-commons:2.4.2'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
